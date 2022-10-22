@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <button class="reverse">Scientific</button>
+      <div class="setting">
+        <div class="parentBlock">
+          <i class="fa-solid fa-gear hoverOver rotating"></i>
+        </div>
+        <div class="block">
+          <div class="block__inner">
+            <div class="theme">
+              <div class="item dark"></div>
+              <div class="item light"></div>
+              <div class="item rainbow"></div>
+            </div>
+            <div class="color">
+              <input type="color" class="input-color">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="output"></div>
+      <div class="btn option" scientificEl="true">deg</div>
+      <div class="btn angle" scientificEl="true">sin</div>
+      <div class="btn angle" scientificEl="true">cos</div>
+      <div class="btn angle" scientificEl="true">tan</div>
+      <div class="btn angle" scientificEl="true">cot</div>
+
+      <div class="btn powY" scientificEl="true">
+        x<span class="upper">y</span>
+      </div>
+      <div class="btn ln" scientificEl="true">ln</div>
+      <div class="btn log" scientificEl="true">log</div>
+      <div class="btn number">(</div>
+      <div class="btn number">)</div>
+
+      <div class="btn sqr" scientificEl="true">
+        x<span class="upper">2</span>
+      </div>
+      <div class="btn clean color-change">C</div>
+      <div class="btn back color-change">&lArr;</div>
+      <div class="btn percent color-change">%</div>
+      <div class="btn devide number color-change">/</div>
+
+      <div class="btn pow-1" scientificEl="true">
+        x<span class="upper">-1</span>
+      </div>
+      <div class="btn number">7</div>
+      <div class="btn number">8</div>
+      <div class="btn number">9</div>
+      <div class="btn multiply number color-change">*</div>
+
+      <div class="btn sqrt" scientificEl="true">&#8730;x</div>
+      <div class="btn number">4</div>
+      <div class="btn number">5</div>
+      <div class="btn number">6</div>
+      <div class="btn sub number color-change">-</div>
+
+      <div class="btn fact" scientificEl="true">x!</div>
+      <div class="btn number">1</div>
+      <div class="btn number">2</div>
+      <div class="btn number">3</div>
+      <div class="btn add number color-change">+</div>
+
+      <div class="btn pi" scientificEl="true">&pi;</div>
+      <div class="btn e" scientificEl="true">e</div>
+      <div class="btn number">0</div>
+      <div class="btn number">.</div>
+      <div class="equal">=</div>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
